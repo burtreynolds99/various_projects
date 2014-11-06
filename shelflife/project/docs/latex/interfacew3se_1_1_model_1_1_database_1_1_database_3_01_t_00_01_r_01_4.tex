@@ -1,0 +1,126 @@
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4}{\section{w3se.\-Model.\-Database.\-Database$<$ T, R $>$ Interface Reference}
+\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4}\index{w3se.\-Model.\-Database.\-Database$<$ T, R $>$@{w3se.\-Model.\-Database.\-Database$<$ T, R $>$}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a77a343a6767d8dfb5222d143bd767b33}{retrieve} (Object obj)  throws Exception
+\item 
+void \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a2b98a86661205c536feb28fb94754c67}{add} (T obj)  throws Exception
+\item 
+void \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a622ab9cb4ac075d7a4972c3717e6de6d}{remove} (T obj)  throws Exception
+\item 
+R \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_ade5f341c75cecc5bccbbb48edb86bce8}{get\-Result} ()  throws Exception
+\item 
+void \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a331e46999bbff8469043cebb389ca8b6}{shutdown} ()  throws Exception
+\item 
+void \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_ae86be43d93f477aa56f92d55446a85a8}{close} ()  throws Exception
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Database.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Interface for databases 
+\begin{DoxyParams}{Parameters}
+{\em $<$\-T$>$} & Type that the database works with (e.\-g. \hyperlink{classw3se_1_1_model_1_1_database_1_1_users_d_b}{Users\-D\-B} uses User) \\
+\hline
+{\em $<$\-R$>$} & Results type (e.\-g. \hyperlink{classw3se_1_1_model_1_1_database_1_1_users_d_b}{Users\-D\-B} uses Array\-List$<$\-User$>$) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a2b98a86661205c536feb28fb94754c67}{\index{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}!add@{add}}
+\index{add@{add}!w3se::Model::Database::Database< T, R >@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Database.\-Database$<$ T, R $>$.add (
+\begin{DoxyParamCaption}
+\item[{T}]{obj}
+\end{DoxyParamCaption}
+)  throws Exception}}\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a2b98a86661205c536feb28fb94754c67}
+method to add an object to the database 
+\begin{DoxyParams}{Parameters}
+{\em obj} & -\/ \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_ae86be43d93f477aa56f92d55446a85a8}{\index{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}!close@{close}}
+\index{close@{close}!w3se::Model::Database::Database< T, R >@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Database.\-Database$<$ T, R $>$.close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception}}\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_ae86be43d93f477aa56f92d55446a85a8}
+method to close the connection to the database 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_ade5f341c75cecc5bccbbb48edb86bce8}{\index{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}!get\-Result@{get\-Result}}
+\index{get\-Result@{get\-Result}!w3se::Model::Database::Database< T, R >@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}}
+\subsubsection[{get\-Result}]{\setlength{\rightskip}{0pt plus 5cm}R w3se.\-Model.\-Database.\-Database$<$ T, R $>$.get\-Result (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception}}\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_ade5f341c75cecc5bccbbb48edb86bce8}
+method to get the results of \hyperlink{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a77a343a6767d8dfb5222d143bd767b33}{retrieve(\-Object obj)} \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a622ab9cb4ac075d7a4972c3717e6de6d}{\index{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}!remove@{remove}}
+\index{remove@{remove}!w3se::Model::Database::Database< T, R >@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Database.\-Database$<$ T, R $>$.remove (
+\begin{DoxyParamCaption}
+\item[{T}]{obj}
+\end{DoxyParamCaption}
+)  throws Exception}}\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a622ab9cb4ac075d7a4972c3717e6de6d}
+method to remove an object from the database 
+\begin{DoxyParams}{Parameters}
+{\em obj} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a77a343a6767d8dfb5222d143bd767b33}{\index{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}!retrieve@{retrieve}}
+\index{retrieve@{retrieve}!w3se::Model::Database::Database< T, R >@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}}
+\subsubsection[{retrieve}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Database.\-Database$<$ T, R $>$.retrieve (
+\begin{DoxyParamCaption}
+\item[{Object}]{obj}
+\end{DoxyParamCaption}
+)  throws Exception}}\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a77a343a6767d8dfb5222d143bd767b33}
+method to retrieve an object from the database 
+\begin{DoxyParams}{Parameters}
+{\em obj} & -\/ search term to look for \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a331e46999bbff8469043cebb389ca8b6}{\index{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!w3se::Model::Database::Database< T, R >@{w3se\-::\-Model\-::\-Database\-::\-Database$<$ T, R $>$}}
+\subsubsection[{shutdown}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Database.\-Database$<$ T, R $>$.shutdown (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception}}\label{interfacew3se_1_1_model_1_1_database_1_1_database_3_01_t_00_01_r_01_4_a331e46999bbff8469043cebb389ca8b6}
+method to shutdown the database 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/\-Database/Database.\-java\end{DoxyCompactItemize}

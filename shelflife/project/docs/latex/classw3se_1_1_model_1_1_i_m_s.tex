@@ -1,0 +1,752 @@
+\hypertarget{classw3se_1_1_model_1_1_i_m_s}{\section{w3se.\-Model.\-I\-M\-S Class Reference}
+\label{classw3se_1_1_model_1_1_i_m_s}\index{w3se.\-Model.\-I\-M\-S@{w3se.\-Model.\-I\-M\-S}}
+}
+Inheritance diagram for w3se.\-Model.\-I\-M\-S\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classw3se_1_1_model_1_1_i_m_s}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ae546fffe1533cb2adafa4f3f735ec37f}{fix\-Resource} (int type)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_aa4ed679904df52d4b1bceb5586ea042d}{init} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_aa1d765c2fc2b70f03208c9c30db07d9c}{set\-User} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} user)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a68f2ed3352f3347fed480d850724c988}{login} ()  throws Exception 	
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ada719119ffda91e5d46f10b75a54c5a1}{logout} ()
+\item 
+boolean \hyperlink{classw3se_1_1_model_1_1_i_m_s_ac13bf07b40bcad32fcc338b56f19ccb1}{create\-User} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} user)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a803bb73ffda01fd745ece60babbea33e}{shutdown\-System} ()  throws Exception 	
+\item 
+\hyperlink{enumw3se_1_1_model_1_1_base_1_1_states}{States} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a4ef12001415807efd9513957694fcbd6}{get\-Login\-State} ()
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} \hyperlink{classw3se_1_1_model_1_1_i_m_s_ae774c67ee9c462cb6c4a5859620aba12}{get\-Current\-User} ()
+\item 
+Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} $>$ \hyperlink{classw3se_1_1_model_1_1_i_m_s_ac2c8d002aa4780961ba29d5626b79255}{retreive\-User} (String\mbox{[}$\,$\mbox{]} term)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ae51dffebb9f471aa4cc3cb021770ec30}{add\-View} (Observer obs)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_task_manager}{Task\-Manager} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a4b93d7cae26d77160f4f4f91a6e2efee}{get\-Task\-Manager} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ac799433c308fa25d3169985e1b5f0a75}{update} (Observable sender, Object obj)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a98316f568225d1b294445c2079a2537c}{find\-Book} (final String\mbox{[}$\,$\mbox{]} search\-Term)
+\item 
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ac446043dfe1f5aa7dfb0845c23a04645}{void {\bfseries find\-Book\-Online} (final String isbn)}\label{classw3se_1_1_model_1_1_i_m_s_ac446043dfe1f5aa7dfb0845c23a04645}
+
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a69d545294a981d608d0a737c387af56a}{remove\-Book\-From\-D\-B} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} book)
+\item 
+Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} $>$ \hyperlink{classw3se_1_1_model_1_1_i_m_s_a161da51ba85f1a9d6ba295cea7df4af5}{get\-List\-Of\-Found\-Books} ()
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} \hyperlink{classw3se_1_1_model_1_1_i_m_s_ae728453cc1a028cd6e973a66bf137154}{get\-Current\-Book} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_adeb24923de3df68e1d79a8af464b55ed}{set\-List\-Of\-Found\-Books} (Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} $>$ books)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_abc794cf00b281dcde2dd5650d2a35df3}{add\-To\-Sold\-List} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} book)
+\item 
+Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} $>$ \hyperlink{classw3se_1_1_model_1_1_i_m_s_a3fce2e06f8c7fac8c7be788d6a99f444}{get\-Listof\-Sold\-Books} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a53f461065b62c96d13ca53fe939d0d36}{remove\-From\-Sold\-List} (int index)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a53ebb58f51581f19bfcce40e407b067d}{set\-List\-Of\-Sold\-Books} (Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} $>$ list)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a766019bb9abfbd84ecb7af9683fe8cdf}{finalize\-Sell} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a33ea6c42c31831ba2ee83dfd74c94aae}{set\-Current\-Book} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} book)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a86b78b42ecdeaee174bdbd2a7fbd15a4}{select\-Book} (int index)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a9b92c4df4626a54d0cde133910be9747}{add\-Current\-Book\-To\-D\-B} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a2d6a603188b08eb79ea28e884cc08aba}{set\-Receipt} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_receipt}{Receipt} receipt)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_receipt}{Receipt} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a3a1030d3784e7474ecc740e4b0c423f6}{get\-Receipt} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a8ca8aac1cdf9ff3b09d0199426973517}{add\-New\-Genres\-From\-Book} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} book)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres}{Book\-Genres} \hyperlink{classw3se_1_1_model_1_1_i_m_s_ad7e375befeff2349d10768edc810fd5e}{get\-Genres} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a388b3d6ff28853005a0e6e0b53031545}{set\-Volatile\-User} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} user)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a958f0462ed9832f4f7f3a64415761777}{get\-Volatile\-User} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_aeb30e6437bf19e4dac32897ced815674}{print\-Receipt} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a808c25901da72734cc5721faaeabeb34}{add\-To\-Remove\-User\-List} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} user)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a70cf4a37948461d3d86fd0558c6f8455}{clear\-Remove\-User\-List} ()
+\item 
+Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} $>$ \hyperlink{classw3se_1_1_model_1_1_i_m_s_ae9aac3f1f6ef820a5c33389b6bf1f2af}{get\-Remove\-User\-List} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a371f27cd65f61899d30bad677401ea7c}{remove\-From\-Remove\-User\-List} (int index)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a2cc2b6a5384430f7f91277e47c90cdad}{remove\-User\-From\-D\-B} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_user}{User} user)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} \hyperlink{classw3se_1_1_model_1_1_i_m_s_afa0ad7e57584187196a17eb95b7672d1}{get\-Database\-Adaptor} ()
+\item 
+\hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a670756e839e0ab6a8c19c2cfef825bbb}{get\-Configurations} ()
+\item 
+boolean \hyperlink{classw3se_1_1_model_1_1_i_m_s_a18779685847f2ff22c1678e0a98ace7c}{show\-Dialogs} ()
+\item 
+boolean \hyperlink{classw3se_1_1_model_1_1_i_m_s_af2aa994fcba81febb572661fd94a858c}{show\-Notify\-Of\-Server\-Mode} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ae99e4420980701b35e43c699e27010e2}{toggle\-Dialog} (boolean is\-Enabled)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ab8d1d4e542f5c9087f7a942f946d18ca}{toggle\-Notify\-S\-Mode} (boolean is\-Enabled)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a1aa3c3d72b75820ea513dc9ecd84c85c}{add\-Log} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_log_item}{Log\-Item} log\-Item)
+\item 
+Array\-List$<$ \hyperlink{classw3se_1_1_model_1_1_base_1_1_log_item}{Log\-Item} $>$ \hyperlink{classw3se_1_1_model_1_1_i_m_s_ade685269d8a34487454bf6f3fe28f1c9}{get\-Logs} (String\mbox{[}$\,$\mbox{]} term)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ac1bd2e9c0134253713903e505be2f3e5}{remove\-Logs} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_a40287fba5b697b2cfffde138abf3ede3}{set\-Exporter} (\hyperlink{interfacew3se_1_1_model_1_1_exporter}{Exporter} exporter)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_abb689438ee165fe2fda69101844920fc}{set\-Theme} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_theme}{Theme} theme)
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_theme}{Theme} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a99b947260cbfe76128d1e5d051196f98}{get\-Theme} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_i_m_s_ac01b784276d9a0b50fef58ecfa96a8d0}{export} (int db\-Type, String filename)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classw3se_1_1_model_1_1_i_m_s}{I\-M\-S} \hyperlink{classw3se_1_1_model_1_1_i_m_s_a5299c158ec89a60311972fe4b641ecd7}{get\-Instance} ()
+\item 
+static \hyperlink{classw3se_1_1_model_1_1_i_m_s}{I\-M\-S} \hyperlink{classw3se_1_1_model_1_1_i_m_s_aa77dde760ec38fcbb55ce806f74df852}{get\-Instance} (boolean fix\-Package, int fix\-Type)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \hyperlink{classw3se_1_1_model_1_1_i_m_s_a9d24fecc0bafc942c529dd1700cba7d2}{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S} = \char`\"{}resources.\-slr\char`\"{}
+\item 
+final String \hyperlink{classw3se_1_1_model_1_1_i_m_s_a68c70498a2d0137a0f9793f4e414a729}{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D} = \char`\"{}tmp\char`\"{}
+\item 
+final String \hyperlink{classw3se_1_1_model_1_1_i_m_s_a2efd11a7e744fc72a8c66c78f3626b91}{C\-O\-N\-F\-I\-G\-\_\-\-F} = \char`\"{}config\char`\"{}
+\item 
+String \hyperlink{classw3se_1_1_model_1_1_i_m_s_a53f9517bd3166639b2b605e730f07632}{S\-L\-\_\-\-I\-C\-O\-N}
+\item 
+String \hyperlink{classw3se_1_1_model_1_1_i_m_s_a9309c235b5a4dc95714257769f663d3d}{S\-L\-\_\-\-L\-O\-G\-O}
+\item 
+String \hyperlink{classw3se_1_1_model_1_1_i_m_s_a39e505844130ace37f4c8e351ea6ec87}{W3\-S\-E\-\_\-\-L\-O\-G\-O}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: I\-M\-S.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Class to serve as the main model, the Inventory Management System 
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a9b92c4df4626a54d0cde133910be9747}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!add\-Current\-Book\-To\-D\-B@{add\-Current\-Book\-To\-D\-B}}
+\index{add\-Current\-Book\-To\-D\-B@{add\-Current\-Book\-To\-D\-B}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{add\-Current\-Book\-To\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-add\-Current\-Book\-To\-D\-B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a9b92c4df4626a54d0cde133910be9747}
+method to insert the current active book of the system into the book database \hypertarget{classw3se_1_1_model_1_1_i_m_s_a1aa3c3d72b75820ea513dc9ecd84c85c}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!add\-Log@{add\-Log}}
+\index{add\-Log@{add\-Log}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{add\-Log}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-add\-Log (
+\begin{DoxyParamCaption}
+\item[{{\bf Log\-Item}}]{log\-Item}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a1aa3c3d72b75820ea513dc9ecd84c85c}
+method to add a log entry to the log database 
+\begin{DoxyParams}{Parameters}
+{\em log\-Item} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a8ca8aac1cdf9ff3b09d0199426973517}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!add\-New\-Genres\-From\-Book@{add\-New\-Genres\-From\-Book}}
+\index{add\-New\-Genres\-From\-Book@{add\-New\-Genres\-From\-Book}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{add\-New\-Genres\-From\-Book}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-add\-New\-Genres\-From\-Book (
+\begin{DoxyParamCaption}
+\item[{{\bf Book}}]{book}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a8ca8aac1cdf9ff3b09d0199426973517}
+method to merge the genres from a book with the main genres list of the system 
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a808c25901da72734cc5721faaeabeb34}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!add\-To\-Remove\-User\-List@{add\-To\-Remove\-User\-List}}
+\index{add\-To\-Remove\-User\-List@{add\-To\-Remove\-User\-List}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{add\-To\-Remove\-User\-List}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-add\-To\-Remove\-User\-List (
+\begin{DoxyParamCaption}
+\item[{{\bf User}}]{user}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a808c25901da72734cc5721faaeabeb34}
+method to add a user to the dispose list of the system 
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_abc794cf00b281dcde2dd5650d2a35df3}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!add\-To\-Sold\-List@{add\-To\-Sold\-List}}
+\index{add\-To\-Sold\-List@{add\-To\-Sold\-List}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{add\-To\-Sold\-List}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-add\-To\-Sold\-List (
+\begin{DoxyParamCaption}
+\item[{{\bf Book}}]{book}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_abc794cf00b281dcde2dd5650d2a35df3}
+method to add a book to the sold list of the system 
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ae51dffebb9f471aa4cc3cb021770ec30}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!add\-View@{add\-View}}
+\index{add\-View@{add\-View}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{add\-View}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-add\-View (
+\begin{DoxyParamCaption}
+\item[{Observer}]{obs}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ae51dffebb9f471aa4cc3cb021770ec30}
+method to register a view to this 
+\begin{DoxyParams}{Parameters}
+{\em obs} & -\/ Observer \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a70cf4a37948461d3d86fd0558c6f8455}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!clear\-Remove\-User\-List@{clear\-Remove\-User\-List}}
+\index{clear\-Remove\-User\-List@{clear\-Remove\-User\-List}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{clear\-Remove\-User\-List}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-clear\-Remove\-User\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a70cf4a37948461d3d86fd0558c6f8455}
+method to purge the dispose list without removing user from the database \hypertarget{classw3se_1_1_model_1_1_i_m_s_ac13bf07b40bcad32fcc338b56f19ccb1}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!create\-User@{create\-User}}
+\index{create\-User@{create\-User}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{create\-User}]{\setlength{\rightskip}{0pt plus 5cm}boolean w3se.\-Model.\-I\-M\-S.\-create\-User (
+\begin{DoxyParamCaption}
+\item[{{\bf User}}]{user}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ac13bf07b40bcad32fcc338b56f19ccb1}
+method to add a user to the system 
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ boolean success or failure 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ac01b784276d9a0b50fef58ecfa96a8d0}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!export@{export}}
+\index{export@{export}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{export}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-export (
+\begin{DoxyParamCaption}
+\item[{int}]{db\-Type, }
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ac01b784276d9a0b50fef58ecfa96a8d0}
+method to export a database to a particular file 
+\begin{DoxyParams}{Parameters}
+{\em db\-Type} & -\/ \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ae9a723ec22a2faffd833796f7afeb6ef}{Database\-Adaptor.\-B\-O\-O\-K\-\_\-\-D\-B}, \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a59eacb7231c850d9ac675ea99b3f4bfd}{Database\-Adaptor.\-U\-S\-E\-R\-S\-\_\-\-D\-B}, \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_afe4d33dc15d4ac9af43c3c631619a086}{Database\-Adaptor.\-O\-N\-L\-I\-N\-E\-\_\-\-D\-B}, \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a39191eb3e12600bd39ded42ed4ef2707}{Database\-Adaptor.\-L\-O\-G\-S\-\_\-\-D\-B} \\
+\hline
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a766019bb9abfbd84ecb7af9683fe8cdf}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!finalize\-Sell@{finalize\-Sell}}
+\index{finalize\-Sell@{finalize\-Sell}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{finalize\-Sell}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-finalize\-Sell (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a766019bb9abfbd84ecb7af9683fe8cdf}
+method to finalize the sell of all the books in the sold list (decrement the quantity of books and log the sell) \hypertarget{classw3se_1_1_model_1_1_i_m_s_a98316f568225d1b294445c2079a2537c}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!find\-Book@{find\-Book}}
+\index{find\-Book@{find\-Book}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{find\-Book}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-find\-Book (
+\begin{DoxyParamCaption}
+\item[{final String\mbox{[}$\,$\mbox{]}}]{search\-Term}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a98316f568225d1b294445c2079a2537c}
+method to find a requested book 
+\begin{DoxyParams}{Parameters}
+{\em search\-Term} & String\mbox{[}\mbox{]} -\/ first index is query type (Book\-D\-B.\-K\-E\-Y\-W\-O\-R\-D or Book\-D\-B.\-B\-R\-O\-W\-S\-E) second index is the actual searchable term \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ae546fffe1533cb2adafa4f3f735ec37f}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!fix\-Resource@{fix\-Resource}}
+\index{fix\-Resource@{fix\-Resource}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{fix\-Resource}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-fix\-Resource (
+\begin{DoxyParamCaption}
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ae546fffe1533cb2adafa4f3f735ec37f}
+method to fix the package file (debug purposes)  
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a670756e839e0ab6a8c19c2cfef825bbb}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Configurations@{get\-Configurations}}
+\index{get\-Configurations@{get\-Configurations}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Configurations}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Configurations} w3se.\-Model.\-I\-M\-S.\-get\-Configurations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a670756e839e0ab6a8c19c2cfef825bbb}
+method to get the system configurations \begin{DoxyReturn}{Returns}
+\hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ae728453cc1a028cd6e973a66bf137154}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Current\-Book@{get\-Current\-Book}}
+\index{get\-Current\-Book@{get\-Current\-Book}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Current\-Book}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Book} w3se.\-Model.\-I\-M\-S.\-get\-Current\-Book (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ae728453cc1a028cd6e973a66bf137154}
+method to get the current book of the system \begin{DoxyReturn}{Returns}
+Book -\/ get the current active book in the system 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ae774c67ee9c462cb6c4a5859620aba12}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Current\-User@{get\-Current\-User}}
+\index{get\-Current\-User@{get\-Current\-User}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Current\-User}]{\setlength{\rightskip}{0pt plus 5cm}{\bf User} w3se.\-Model.\-I\-M\-S.\-get\-Current\-User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ae774c67ee9c462cb6c4a5859620aba12}
+method to get the active user of the system \begin{DoxyReturn}{Returns}
+-\/ active user 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_afa0ad7e57584187196a17eb95b7672d1}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Database\-Adaptor@{get\-Database\-Adaptor}}
+\index{get\-Database\-Adaptor@{get\-Database\-Adaptor}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Database\-Adaptor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Database\-Adaptor} w3se.\-Model.\-I\-M\-S.\-get\-Database\-Adaptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_afa0ad7e57584187196a17eb95b7672d1}
+method to get the database adaptor of the system \begin{DoxyReturn}{Returns}
+Database\-Adaptor 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ad7e375befeff2349d10768edc810fd5e}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Genres@{get\-Genres}}
+\index{get\-Genres@{get\-Genres}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Genres}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Book\-Genres} w3se.\-Model.\-I\-M\-S.\-get\-Genres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ad7e375befeff2349d10768edc810fd5e}
+method to get the genres list of the system \begin{DoxyReturn}{Returns}
+Book\-Genres 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a5299c158ec89a60311972fe4b641ecd7}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf I\-M\-S} w3se.\-Model.\-I\-M\-S.\-get\-Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_i_m_s_a5299c158ec89a60311972fe4b641ecd7}
+gotta love singletons (G\-L\-O\-B\-A\-L C\-H\-A\-O\-S!) \begin{DoxyReturn}{Returns}
+-\/ \hyperlink{classw3se_1_1_model_1_1_i_m_s}{I\-M\-S} instance 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_aa77dde760ec38fcbb55ce806f74df852}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf I\-M\-S} w3se.\-Model.\-I\-M\-S.\-get\-Instance (
+\begin{DoxyParamCaption}
+\item[{boolean}]{fix\-Package, }
+\item[{int}]{fix\-Type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_i_m_s_aa77dde760ec38fcbb55ce806f74df852}
+singleton which will terminate after the package is unpacked or packed 
+\begin{DoxyParams}{Parameters}
+{\em fix\-Package} & -\/ if you want to fix the resource file \\
+\hline
+{\em fix\-Type} & -\/ what type of fix is it ('0' -\/ Unpack, '1' -\/ Pack);  \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a161da51ba85f1a9d6ba295cea7df4af5}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-List\-Of\-Found\-Books@{get\-List\-Of\-Found\-Books}}
+\index{get\-List\-Of\-Found\-Books@{get\-List\-Of\-Found\-Books}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-List\-Of\-Found\-Books}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Book}$>$ w3se.\-Model.\-I\-M\-S.\-get\-List\-Of\-Found\-Books (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a161da51ba85f1a9d6ba295cea7df4af5}
+method to get the list of found books from the system (found books are the result of find\-Book(\-String\mbox{[}$\,$\mbox{]} search\-Term) \begin{DoxyReturn}{Returns}
+Array\-List$<$\-Book$>$ -\/ list of found books from the system 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a3fce2e06f8c7fac8c7be788d6a99f444}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Listof\-Sold\-Books@{get\-Listof\-Sold\-Books}}
+\index{get\-Listof\-Sold\-Books@{get\-Listof\-Sold\-Books}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Listof\-Sold\-Books}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Book}$>$ w3se.\-Model.\-I\-M\-S.\-get\-Listof\-Sold\-Books (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a3fce2e06f8c7fac8c7be788d6a99f444}
+method to get the list of sold books from the system \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a4ef12001415807efd9513957694fcbd6}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Login\-State@{get\-Login\-State}}
+\index{get\-Login\-State@{get\-Login\-State}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Login\-State}]{\setlength{\rightskip}{0pt plus 5cm}{\bf States} w3se.\-Model.\-I\-M\-S.\-get\-Login\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a4ef12001415807efd9513957694fcbd6}
+method to get the current state of the system \begin{DoxyReturn}{Returns}
+-\/ L\-O\-G\-G\-E\-D\-\_\-\-I\-N, or L\-O\-G\-G\-E\-D\-\_\-\-O\-U\-T 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ade685269d8a34487454bf6f3fe28f1c9}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Logs@{get\-Logs}}
+\index{get\-Logs@{get\-Logs}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Logs}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Log\-Item}$>$ w3se.\-Model.\-I\-M\-S.\-get\-Logs (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{term}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ade685269d8a34487454bf6f3fe28f1c9}
+method to get the log entries from the system 
+\begin{DoxyParams}{Parameters}
+{\em action\-Type} & -\/ Log\-Item.\-Action \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ list of log items 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a3a1030d3784e7474ecc740e4b0c423f6}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Receipt@{get\-Receipt}}
+\index{get\-Receipt@{get\-Receipt}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Receipt}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Receipt} w3se.\-Model.\-I\-M\-S.\-get\-Receipt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a3a1030d3784e7474ecc740e4b0c423f6}
+method to get the Receipt object of the system \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ae9aac3f1f6ef820a5c33389b6bf1f2af}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Remove\-User\-List@{get\-Remove\-User\-List}}
+\index{get\-Remove\-User\-List@{get\-Remove\-User\-List}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Remove\-User\-List}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf User}$>$ w3se.\-Model.\-I\-M\-S.\-get\-Remove\-User\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ae9aac3f1f6ef820a5c33389b6bf1f2af}
+method to get the dispose list of the system \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a4b93d7cae26d77160f4f4f91a6e2efee}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Task\-Manager@{get\-Task\-Manager}}
+\index{get\-Task\-Manager@{get\-Task\-Manager}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Task\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Task\-Manager} w3se.\-Model.\-I\-M\-S.\-get\-Task\-Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a4b93d7cae26d77160f4f4f91a6e2efee}
+method to get the task manager \begin{DoxyReturn}{Returns}
+\hyperlink{classw3se_1_1_model_1_1_task_manager}{Task\-Manager} -\/ reference to the task manager of the system 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a99b947260cbfe76128d1e5d051196f98}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Theme@{get\-Theme}}
+\index{get\-Theme@{get\-Theme}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Theme}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Theme} w3se.\-Model.\-I\-M\-S.\-get\-Theme (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a99b947260cbfe76128d1e5d051196f98}
+method to get the theme of the system \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a958f0462ed9832f4f7f3a64415761777}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!get\-Volatile\-User@{get\-Volatile\-User}}
+\index{get\-Volatile\-User@{get\-Volatile\-User}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{get\-Volatile\-User}]{\setlength{\rightskip}{0pt plus 5cm}{\bf User} w3se.\-Model.\-I\-M\-S.\-get\-Volatile\-User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a958f0462ed9832f4f7f3a64415761777}
+method to get the current mutable user of the system \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_aa4ed679904df52d4b1bceb5586ea042d}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!init@{init}}
+\index{init@{init}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_aa4ed679904df52d4b1bceb5586ea042d}
+method to initialize the system and setup the environment \hypertarget{classw3se_1_1_model_1_1_i_m_s_a68f2ed3352f3347fed480d850724c988}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!login@{login}}
+\index{login@{login}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{login}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-login (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception 	}}\label{classw3se_1_1_model_1_1_i_m_s_a68f2ed3352f3347fed480d850724c988}
+method to login to the system 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & -\/ if the login fails \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ada719119ffda91e5d46f10b75a54c5a1}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!logout@{logout}}
+\index{logout@{logout}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{logout}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-logout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ada719119ffda91e5d46f10b75a54c5a1}
+method to logout \hypertarget{classw3se_1_1_model_1_1_i_m_s_aeb30e6437bf19e4dac32897ced815674}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!print\-Receipt@{print\-Receipt}}
+\index{print\-Receipt@{print\-Receipt}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{print\-Receipt}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-print\-Receipt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_aeb30e6437bf19e4dac32897ced815674}
+method to print the receipt of from the sold book list \hypertarget{classw3se_1_1_model_1_1_i_m_s_a69d545294a981d608d0a737c387af56a}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!remove\-Book\-From\-D\-B@{remove\-Book\-From\-D\-B}}
+\index{remove\-Book\-From\-D\-B@{remove\-Book\-From\-D\-B}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{remove\-Book\-From\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-remove\-Book\-From\-D\-B (
+\begin{DoxyParamCaption}
+\item[{{\bf Book}}]{book}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a69d545294a981d608d0a737c387af56a}
+method to remove a book from the books db 
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a371f27cd65f61899d30bad677401ea7c}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!remove\-From\-Remove\-User\-List@{remove\-From\-Remove\-User\-List}}
+\index{remove\-From\-Remove\-User\-List@{remove\-From\-Remove\-User\-List}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{remove\-From\-Remove\-User\-List}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-remove\-From\-Remove\-User\-List (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a371f27cd65f61899d30bad677401ea7c}
+method to remove a particular user from the dispose list 
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a53f461065b62c96d13ca53fe939d0d36}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!remove\-From\-Sold\-List@{remove\-From\-Sold\-List}}
+\index{remove\-From\-Sold\-List@{remove\-From\-Sold\-List}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{remove\-From\-Sold\-List}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-remove\-From\-Sold\-List (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a53f461065b62c96d13ca53fe939d0d36}
+method to remove a particular book from the sold list of a system 
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ac1bd2e9c0134253713903e505be2f3e5}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!remove\-Logs@{remove\-Logs}}
+\index{remove\-Logs@{remove\-Logs}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{remove\-Logs}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-remove\-Logs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ac1bd2e9c0134253713903e505be2f3e5}
+method to remove all the logs of the system \hypertarget{classw3se_1_1_model_1_1_i_m_s_a2cc2b6a5384430f7f91277e47c90cdad}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!remove\-User\-From\-D\-B@{remove\-User\-From\-D\-B}}
+\index{remove\-User\-From\-D\-B@{remove\-User\-From\-D\-B}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{remove\-User\-From\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-remove\-User\-From\-D\-B (
+\begin{DoxyParamCaption}
+\item[{{\bf User}}]{user}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a2cc2b6a5384430f7f91277e47c90cdad}
+method to remove a particular user from the user database 
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ac2c8d002aa4780961ba29d5626b79255}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!retreive\-User@{retreive\-User}}
+\index{retreive\-User@{retreive\-User}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{retreive\-User}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf User}$>$ w3se.\-Model.\-I\-M\-S.\-retreive\-User (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{term}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ac2c8d002aa4780961ba29d5626b79255}
+method to retreive a user 
+\begin{DoxyParams}{Parameters}
+{\em term} & String\mbox{[}\mbox{]} -\/ first index is the query type (User\-D\-B.\-U\-\_\-\-I\-D or User\-D\-B.\-U\-S\-E\-R\-N\-A\-M\-E) second index holds the id or the username \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\-List$<$\-User$>$ -\/ found users matching the criteria 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a86b78b42ecdeaee174bdbd2a7fbd15a4}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!select\-Book@{select\-Book}}
+\index{select\-Book@{select\-Book}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{select\-Book}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Book} w3se.\-Model.\-I\-M\-S.\-select\-Book (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a86b78b42ecdeaee174bdbd2a7fbd15a4}
+method to select a particular book from the found book list 
+\begin{DoxyParams}{Parameters}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a33ea6c42c31831ba2ee83dfd74c94aae}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-Current\-Book@{set\-Current\-Book}}
+\index{set\-Current\-Book@{set\-Current\-Book}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-Current\-Book}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-Current\-Book (
+\begin{DoxyParamCaption}
+\item[{{\bf Book}}]{book}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a33ea6c42c31831ba2ee83dfd74c94aae}
+method to set the current book of the system 
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a40287fba5b697b2cfffde138abf3ede3}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-Exporter@{set\-Exporter}}
+\index{set\-Exporter@{set\-Exporter}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-Exporter}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-Exporter (
+\begin{DoxyParamCaption}
+\item[{{\bf Exporter}}]{exporter}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a40287fba5b697b2cfffde138abf3ede3}
+set the exporter for the system 
+\begin{DoxyParams}{Parameters}
+{\em exporter} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_adeb24923de3df68e1d79a8af464b55ed}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-List\-Of\-Found\-Books@{set\-List\-Of\-Found\-Books}}
+\index{set\-List\-Of\-Found\-Books@{set\-List\-Of\-Found\-Books}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-List\-Of\-Found\-Books}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-List\-Of\-Found\-Books (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Book} $>$}]{books}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_adeb24923de3df68e1d79a8af464b55ed}
+method to set the list of found books 
+\begin{DoxyParams}{Parameters}
+{\em books} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a53ebb58f51581f19bfcce40e407b067d}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-List\-Of\-Sold\-Books@{set\-List\-Of\-Sold\-Books}}
+\index{set\-List\-Of\-Sold\-Books@{set\-List\-Of\-Sold\-Books}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-List\-Of\-Sold\-Books}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-List\-Of\-Sold\-Books (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Book} $>$}]{list}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a53ebb58f51581f19bfcce40e407b067d}
+method to set the list of sold books \hypertarget{classw3se_1_1_model_1_1_i_m_s_a2d6a603188b08eb79ea28e884cc08aba}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-Receipt@{set\-Receipt}}
+\index{set\-Receipt@{set\-Receipt}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-Receipt}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-Receipt (
+\begin{DoxyParamCaption}
+\item[{{\bf Receipt}}]{receipt}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a2d6a603188b08eb79ea28e884cc08aba}
+method to set the Receipt object of the system 
+\begin{DoxyParams}{Parameters}
+{\em receipt} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_abb689438ee165fe2fda69101844920fc}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-Theme@{set\-Theme}}
+\index{set\-Theme@{set\-Theme}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-Theme}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-Theme (
+\begin{DoxyParamCaption}
+\item[{{\bf Theme}}]{theme}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_abb689438ee165fe2fda69101844920fc}
+method to set the theme of the system 
+\begin{DoxyParams}{Parameters}
+{\em theme} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_aa1d765c2fc2b70f03208c9c30db07d9c}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-User@{set\-User}}
+\index{set\-User@{set\-User}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-User}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-User (
+\begin{DoxyParamCaption}
+\item[{{\bf User}}]{user}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_aa1d765c2fc2b70f03208c9c30db07d9c}
+method to set the current user of the system 
+\begin{DoxyParams}{Parameters}
+{\em user} & -\/ active user \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a388b3d6ff28853005a0e6e0b53031545}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!set\-Volatile\-User@{set\-Volatile\-User}}
+\index{set\-Volatile\-User@{set\-Volatile\-User}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{set\-Volatile\-User}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-set\-Volatile\-User (
+\begin{DoxyParamCaption}
+\item[{{\bf User}}]{user}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a388b3d6ff28853005a0e6e0b53031545}
+method to set the mutable user of the system (used for editing a previous user) 
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a18779685847f2ff22c1678e0a98ace7c}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!show\-Dialogs@{show\-Dialogs}}
+\index{show\-Dialogs@{show\-Dialogs}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{show\-Dialogs}]{\setlength{\rightskip}{0pt plus 5cm}boolean w3se.\-Model.\-I\-M\-S.\-show\-Dialogs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_a18779685847f2ff22c1678e0a98ace7c}
+method to see if the system is set to show dialogs \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_af2aa994fcba81febb572661fd94a858c}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!show\-Notify\-Of\-Server\-Mode@{show\-Notify\-Of\-Server\-Mode}}
+\index{show\-Notify\-Of\-Server\-Mode@{show\-Notify\-Of\-Server\-Mode}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{show\-Notify\-Of\-Server\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}boolean w3se.\-Model.\-I\-M\-S.\-show\-Notify\-Of\-Server\-Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_af2aa994fcba81febb572661fd94a858c}
+method to see if the system is to show server mode notification \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a803bb73ffda01fd745ece60babbea33e}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!shutdown\-System@{shutdown\-System}}
+\index{shutdown\-System@{shutdown\-System}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{shutdown\-System}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-shutdown\-System (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Exception 	}}\label{classw3se_1_1_model_1_1_i_m_s_a803bb73ffda01fd745ece60babbea33e}
+method to call when the system is going to shutdown 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & -\/ if any errors occur during clean up \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ae99e4420980701b35e43c699e27010e2}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!toggle\-Dialog@{toggle\-Dialog}}
+\index{toggle\-Dialog@{toggle\-Dialog}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{toggle\-Dialog}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-toggle\-Dialog (
+\begin{DoxyParamCaption}
+\item[{boolean}]{is\-Enabled}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ae99e4420980701b35e43c699e27010e2}
+method to set the visibility of the error dialogs 
+\begin{DoxyParams}{Parameters}
+{\em is\-Enabled} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ab8d1d4e542f5c9087f7a942f946d18ca}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!toggle\-Notify\-S\-Mode@{toggle\-Notify\-S\-Mode}}
+\index{toggle\-Notify\-S\-Mode@{toggle\-Notify\-S\-Mode}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{toggle\-Notify\-S\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-toggle\-Notify\-S\-Mode (
+\begin{DoxyParamCaption}
+\item[{boolean}]{is\-Enabled}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ab8d1d4e542f5c9087f7a942f946d18ca}
+method to set the visibility of the server mode dialog 
+\begin{DoxyParams}{Parameters}
+{\em is\-Enabled} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_ac799433c308fa25d3169985e1b5f0a75}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!update@{update}}
+\index{update@{update}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-I\-M\-S.\-update (
+\begin{DoxyParamCaption}
+\item[{Observable}]{sender, }
+\item[{Object}]{obj}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_i_m_s_ac799433c308fa25d3169985e1b5f0a75}
+method to update 
+
+\subsection{Member Data Documentation}
+\hypertarget{classw3se_1_1_model_1_1_i_m_s_a2efd11a7e744fc72a8c66c78f3626b91}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!C\-O\-N\-F\-I\-G\-\_\-\-F@{C\-O\-N\-F\-I\-G\-\_\-\-F}}
+\index{C\-O\-N\-F\-I\-G\-\_\-\-F@{C\-O\-N\-F\-I\-G\-\_\-\-F}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{C\-O\-N\-F\-I\-G\-\_\-\-F}]{\setlength{\rightskip}{0pt plus 5cm}final String w3se.\-Model.\-I\-M\-S.\-C\-O\-N\-F\-I\-G\-\_\-\-F = \char`\"{}config\char`\"{}}}\label{classw3se_1_1_model_1_1_i_m_s_a2efd11a7e744fc72a8c66c78f3626b91}
+configuration file's filename \hypertarget{classw3se_1_1_model_1_1_i_m_s_a68c70498a2d0137a0f9793f4e414a729}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D@{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D}}
+\index{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D@{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D}]{\setlength{\rightskip}{0pt plus 5cm}final String w3se.\-Model.\-I\-M\-S.\-R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-D = \char`\"{}tmp\char`\"{}}}\label{classw3se_1_1_model_1_1_i_m_s_a68c70498a2d0137a0f9793f4e414a729}
+destination location for the unpacked resource file \hypertarget{classw3se_1_1_model_1_1_i_m_s_a9d24fecc0bafc942c529dd1700cba7d2}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S@{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S}}
+\index{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S@{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S}]{\setlength{\rightskip}{0pt plus 5cm}final String w3se.\-Model.\-I\-M\-S.\-R\-E\-S\-O\-U\-R\-C\-E\-S\-\_\-\-S = \char`\"{}resources.\-slr\char`\"{}}}\label{classw3se_1_1_model_1_1_i_m_s_a9d24fecc0bafc942c529dd1700cba7d2}
+source location of the resource file \hypertarget{classw3se_1_1_model_1_1_i_m_s_a53f9517bd3166639b2b605e730f07632}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!S\-L\-\_\-\-I\-C\-O\-N@{S\-L\-\_\-\-I\-C\-O\-N}}
+\index{S\-L\-\_\-\-I\-C\-O\-N@{S\-L\-\_\-\-I\-C\-O\-N}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{S\-L\-\_\-\-I\-C\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}String w3se.\-Model.\-I\-M\-S.\-S\-L\-\_\-\-I\-C\-O\-N}}\label{classw3se_1_1_model_1_1_i_m_s_a53f9517bd3166639b2b605e730f07632}
+Shelf\-Life's icon image filename \hypertarget{classw3se_1_1_model_1_1_i_m_s_a9309c235b5a4dc95714257769f663d3d}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!S\-L\-\_\-\-L\-O\-G\-O@{S\-L\-\_\-\-L\-O\-G\-O}}
+\index{S\-L\-\_\-\-L\-O\-G\-O@{S\-L\-\_\-\-L\-O\-G\-O}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{S\-L\-\_\-\-L\-O\-G\-O}]{\setlength{\rightskip}{0pt plus 5cm}String w3se.\-Model.\-I\-M\-S.\-S\-L\-\_\-\-L\-O\-G\-O}}\label{classw3se_1_1_model_1_1_i_m_s_a9309c235b5a4dc95714257769f663d3d}
+Shelf\-Life's logo image filename \hypertarget{classw3se_1_1_model_1_1_i_m_s_a39e505844130ace37f4c8e351ea6ec87}{\index{w3se\-::\-Model\-::\-I\-M\-S@{w3se\-::\-Model\-::\-I\-M\-S}!W3\-S\-E\-\_\-\-L\-O\-G\-O@{W3\-S\-E\-\_\-\-L\-O\-G\-O}}
+\index{W3\-S\-E\-\_\-\-L\-O\-G\-O@{W3\-S\-E\-\_\-\-L\-O\-G\-O}!w3se::Model::IMS@{w3se\-::\-Model\-::\-I\-M\-S}}
+\subsubsection[{W3\-S\-E\-\_\-\-L\-O\-G\-O}]{\setlength{\rightskip}{0pt plus 5cm}String w3se.\-Model.\-I\-M\-S.\-W3\-S\-E\-\_\-\-L\-O\-G\-O}}\label{classw3se_1_1_model_1_1_i_m_s_a39e505844130ace37f4c8e351ea6ec87}
+We Three Software Engineers logo image filename 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/I\-M\-S.\-java\end{DoxyCompactItemize}

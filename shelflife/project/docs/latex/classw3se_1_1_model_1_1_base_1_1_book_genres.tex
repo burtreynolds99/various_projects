@@ -1,0 +1,172 @@
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres}{\section{w3se.\-Model.\-Base.\-Book\-Genres Class Reference}
+\label{classw3se_1_1_model_1_1_base_1_1_book_genres}\index{w3se.\-Model.\-Base.\-Book\-Genres@{w3se.\-Model.\-Base.\-Book\-Genres}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a7f8dbebc602beabb46ef1080e5a03924}{Book\-Genres} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a1fe134cd7f9b6cf016626858f4ea7baa}{merge\-From\-File} (String filename)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ac451e4a55ad25a414f7b424d4f2d3e}{merge\-From\-Book} (\hyperlink{classw3se_1_1_model_1_1_base_1_1_book}{Book} book)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_aee5a8a3ea3a3d615c3934bc9e644e66f}{add\-Genre} (String genre)
+\item 
+String \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ab2a24bf3fe141ed64b10291870b587}{get\-Genre} (String genre)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_ae518d8eaa21728d3e2f43c359e2da7fe}{remove\-Genre} (String genre)
+\item 
+int \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a14930f36a2a0b035069aefb032e36fd8}{get\-Size} ()
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a03d2d53aa729f48e287a3f893bd66808}{to\-String\-Array} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a1ac4a35175cd19328224b6ccef616c86}{write\-To\-File} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Book\-Genres.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Class to hold and manage book genres 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a7f8dbebc602beabb46ef1080e5a03924}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!Book\-Genres@{Book\-Genres}}
+\index{Book\-Genres@{Book\-Genres}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{Book\-Genres}]{\setlength{\rightskip}{0pt plus 5cm}w3se.\-Model.\-Base.\-Book\-Genres.\-Book\-Genres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a7f8dbebc602beabb46ef1080e5a03924}
+default constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_aee5a8a3ea3a3d615c3934bc9e644e66f}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!add\-Genre@{add\-Genre}}
+\index{add\-Genre@{add\-Genre}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{add\-Genre}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Book\-Genres.\-add\-Genre (
+\begin{DoxyParamCaption}
+\item[{String}]{genre}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_aee5a8a3ea3a3d615c3934bc9e644e66f}
+Adds a genre to the genre list
+
+
+\begin{DoxyParams}{Parameters}
+{\em genre} & The genre to be added to the genre list \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_aee5a8a3ea3a3d615c3934bc9e644e66f}{add\-Genre} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ab2a24bf3fe141ed64b10291870b587}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!get\-Genre@{get\-Genre}}
+\index{get\-Genre@{get\-Genre}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{get\-Genre}]{\setlength{\rightskip}{0pt plus 5cm}String w3se.\-Model.\-Base.\-Book\-Genres.\-get\-Genre (
+\begin{DoxyParamCaption}
+\item[{String}]{genre}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ab2a24bf3fe141ed64b10291870b587}
+Returns the requested genre
+
+
+\begin{DoxyParams}{Parameters}
+{\em genre} & The genre that is requested \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ab2a24bf3fe141ed64b10291870b587}{get\-Genre} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a14930f36a2a0b035069aefb032e36fd8}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!get\-Size@{get\-Size}}
+\index{get\-Size@{get\-Size}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{get\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int w3se.\-Model.\-Base.\-Book\-Genres.\-get\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a14930f36a2a0b035069aefb032e36fd8}
+Returns the size of the genre list
+
+\begin{DoxyReturn}{Returns}
+The current size of the genre list 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a14930f36a2a0b035069aefb032e36fd8}{get\-Size} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ac451e4a55ad25a414f7b424d4f2d3e}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!merge\-From\-Book@{merge\-From\-Book}}
+\index{merge\-From\-Book@{merge\-From\-Book}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{merge\-From\-Book}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Book\-Genres.\-merge\-From\-Book (
+\begin{DoxyParamCaption}
+\item[{{\bf Book}}]{book}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ac451e4a55ad25a414f7b424d4f2d3e}
+Merges genres from a book
+
+
+\begin{DoxyParams}{Parameters}
+{\em book} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a5ac451e4a55ad25a414f7b424d4f2d3e}{merge\-From\-Book} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a1fe134cd7f9b6cf016626858f4ea7baa}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!merge\-From\-File@{merge\-From\-File}}
+\index{merge\-From\-File@{merge\-From\-File}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{merge\-From\-File}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Book\-Genres.\-merge\-From\-File (
+\begin{DoxyParamCaption}
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a1fe134cd7f9b6cf016626858f4ea7baa}
+Merges genres from a file
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a1fe134cd7f9b6cf016626858f4ea7baa}{merge\-From\-File} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_ae518d8eaa21728d3e2f43c359e2da7fe}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!remove\-Genre@{remove\-Genre}}
+\index{remove\-Genre@{remove\-Genre}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{remove\-Genre}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Book\-Genres.\-remove\-Genre (
+\begin{DoxyParamCaption}
+\item[{String}]{genre}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_ae518d8eaa21728d3e2f43c359e2da7fe}
+Removes a genre from the genre list
+
+
+\begin{DoxyParams}{Parameters}
+{\em genre} & The genre to be removed \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_ae518d8eaa21728d3e2f43c359e2da7fe}{remove\-Genre} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a03d2d53aa729f48e287a3f893bd66808}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!to\-String\-Array@{to\-String\-Array}}
+\index{to\-String\-Array@{to\-String\-Array}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{to\-String\-Array}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} w3se.\-Model.\-Base.\-Book\-Genres.\-to\-String\-Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a03d2d53aa729f48e287a3f893bd66808}
+Converts the list of genres into an array of strings
+
+\begin{DoxyReturn}{Returns}
+The converted list of genre strings 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a03d2d53aa729f48e287a3f893bd66808}{to\-String\-Array} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_book_genres_a1ac4a35175cd19328224b6ccef616c86}{\index{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}!write\-To\-File@{write\-To\-File}}
+\index{write\-To\-File@{write\-To\-File}!w3se::Model::Base::BookGenres@{w3se\-::\-Model\-::\-Base\-::\-Book\-Genres}}
+\subsubsection[{write\-To\-File}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Book\-Genres.\-write\-To\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_book_genres_a1ac4a35175cd19328224b6ccef616c86}
+This method writes information to a file
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_book_genres_a1ac4a35175cd19328224b6ccef616c86}{write\-To\-File} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/\-Base/Book\-Genres.\-java\end{DoxyCompactItemize}

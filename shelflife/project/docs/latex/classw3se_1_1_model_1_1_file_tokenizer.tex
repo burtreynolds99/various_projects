@@ -1,0 +1,84 @@
+\hypertarget{classw3se_1_1_model_1_1_file_tokenizer}{\section{w3se.\-Model.\-File\-Tokenizer Class Reference}
+\label{classw3se_1_1_model_1_1_file_tokenizer}\index{w3se.\-Model.\-File\-Tokenizer@{w3se.\-Model.\-File\-Tokenizer}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classw3se_1_1_model_1_1_file_tokenizer_ae7cd5cfa46199606d662d924627264f1}{File\-Tokenizer} (int token\-Type)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_file_tokenizer_aa647c26c0474cf3e8f7aa870e23c2668}{read\-File} (String filename)
+\item 
+Array\-List$<$ String $>$ \hyperlink{classw3se_1_1_model_1_1_file_tokenizer_a7e4b533f724bb7654a887c043793b688}{tokenize} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_file_tokenizer_a7d4acc9794a367b9b4b713ee30538a9e}{U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E} = 0
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_file_tokenizer_aa0a435e28809cae13036f6fe33f9d4b8}{L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E} = 1
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_file_tokenizer_a7dba841c4633f0a223f2ed77fea9a19d}{U\-N\-T\-O\-U\-C\-H\-E\-D} = 2
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: File\-Tokenizer.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Class to tokenize a file of comma delimited strings 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classw3se_1_1_model_1_1_file_tokenizer_ae7cd5cfa46199606d662d924627264f1}{\index{w3se\-::\-Model\-::\-File\-Tokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}!File\-Tokenizer@{File\-Tokenizer}}
+\index{File\-Tokenizer@{File\-Tokenizer}!w3se::Model::FileTokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}}
+\subsubsection[{File\-Tokenizer}]{\setlength{\rightskip}{0pt plus 5cm}w3se.\-Model.\-File\-Tokenizer.\-File\-Tokenizer (
+\begin{DoxyParamCaption}
+\item[{int}]{token\-Type}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_file_tokenizer_ae7cd5cfa46199606d662d924627264f1}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em token\-Type} & -\/ the caseness of the tokens \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_model_1_1_file_tokenizer_aa647c26c0474cf3e8f7aa870e23c2668}{\index{w3se\-::\-Model\-::\-File\-Tokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}!read\-File@{read\-File}}
+\index{read\-File@{read\-File}!w3se::Model::FileTokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}}
+\subsubsection[{read\-File}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-File\-Tokenizer.\-read\-File (
+\begin{DoxyParamCaption}
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_file_tokenizer_aa647c26c0474cf3e8f7aa870e23c2668}
+method to read from a file 
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_file_tokenizer_a7e4b533f724bb7654a887c043793b688}{\index{w3se\-::\-Model\-::\-File\-Tokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}!tokenize@{tokenize}}
+\index{tokenize@{tokenize}!w3se::Model::FileTokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}}
+\subsubsection[{tokenize}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<$String$>$ w3se.\-Model.\-File\-Tokenizer.\-tokenize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_file_tokenizer_a7e4b533f724bb7654a887c043793b688}
+method to tokenize a read in file \begin{DoxyPrecond}{Precondition}
+must run \hyperlink{classw3se_1_1_model_1_1_file_tokenizer_aa647c26c0474cf3e8f7aa870e23c2668}{read\-File(\-String filename)} first 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+-\/ Array\-List$<$\-String$>$ tokenized strings 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classw3se_1_1_model_1_1_file_tokenizer_aa0a435e28809cae13036f6fe33f9d4b8}{\index{w3se\-::\-Model\-::\-File\-Tokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}!L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E@{L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E}}
+\index{L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E@{L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E}!w3se::Model::FileTokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}}
+\subsubsection[{L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-File\-Tokenizer.\-L\-O\-W\-E\-R\-\_\-\-C\-A\-S\-E = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_file_tokenizer_aa0a435e28809cae13036f6fe33f9d4b8}
+tokenize and turn to all lower case \hypertarget{classw3se_1_1_model_1_1_file_tokenizer_a7dba841c4633f0a223f2ed77fea9a19d}{\index{w3se\-::\-Model\-::\-File\-Tokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}!U\-N\-T\-O\-U\-C\-H\-E\-D@{U\-N\-T\-O\-U\-C\-H\-E\-D}}
+\index{U\-N\-T\-O\-U\-C\-H\-E\-D@{U\-N\-T\-O\-U\-C\-H\-E\-D}!w3se::Model::FileTokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}}
+\subsubsection[{U\-N\-T\-O\-U\-C\-H\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-File\-Tokenizer.\-U\-N\-T\-O\-U\-C\-H\-E\-D = 2\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_file_tokenizer_a7dba841c4633f0a223f2ed77fea9a19d}
+tokenize but leave the case untouched \hypertarget{classw3se_1_1_model_1_1_file_tokenizer_a7d4acc9794a367b9b4b713ee30538a9e}{\index{w3se\-::\-Model\-::\-File\-Tokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}!U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E@{U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E}}
+\index{U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E@{U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E}!w3se::Model::FileTokenizer@{w3se\-::\-Model\-::\-File\-Tokenizer}}
+\subsubsection[{U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-File\-Tokenizer.\-U\-P\-P\-E\-R\-\_\-\-C\-A\-S\-E = 0\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_file_tokenizer_a7d4acc9794a367b9b4b713ee30538a9e}
+tokenize and turn to all upper case 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/File\-Tokenizer.\-java\end{DoxyCompactItemize}

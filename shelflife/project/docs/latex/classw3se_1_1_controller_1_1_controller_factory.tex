@@ -1,0 +1,116 @@
+\hypertarget{classw3se_1_1_controller_1_1_controller_factory}{\section{w3se.\-Controller.\-Controller\-Factory Class Reference}
+\label{classw3se_1_1_controller_1_1_controller_factory}\index{w3se.\-Controller.\-Controller\-Factory@{w3se.\-Controller.\-Controller\-Factory}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacew3se_1_1_controller_1_1_controller}{Controller} \hyperlink{classw3se_1_1_controller_1_1_controller_factory_aa98700d9b1e8c389d544eced557c2f41}{create\-Controller} (int controller\-Type)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classw3se_1_1_controller_1_1_controller_factory}{Controller\-Factory} \hyperlink{classw3se_1_1_controller_1_1_controller_factory_a9328085c9578be93a2ab3fd7e63e48dd}{get\-Instance} ()
+\item 
+static \hyperlink{classw3se_1_1_controller_1_1_controller_factory}{Controller\-Factory} \hyperlink{classw3se_1_1_controller_1_1_controller_factory_a608ffad3b8455bee8011f748a1350a22}{get\-Instance} (\hyperlink{classw3se_1_1_model_1_1_i_m_s}{I\-M\-S} model)
+\item 
+static void \hyperlink{classw3se_1_1_controller_1_1_controller_factory_a8d17247f3d84673720934a89a9387dde}{register\-Model} (\hyperlink{classw3se_1_1_model_1_1_i_m_s}{I\-M\-S} model)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classw3se_1_1_controller_1_1_controller_factory_a6a7ccd51a6578a23662085daf56dde92}{M\-A\-I\-N\-\_\-\-V\-I\-E\-W} = 0
+\item 
+static final int \hyperlink{classw3se_1_1_controller_1_1_controller_factory_a6b4f99f28f772b04d83cd840a52add01}{S\-E\-A\-R\-C\-H} = 1
+\item 
+static final int \hyperlink{classw3se_1_1_controller_1_1_controller_factory_ad5cd3960aaaed6a4a1c1e51f5ef0d9bf}{L\-O\-G\-I\-N} = 2
+\item 
+static final int \hyperlink{classw3se_1_1_controller_1_1_controller_factory_ae4a2c6a73c4e48952bbace51e7ab0c03}{C\-O\-N\-F\-I\-G} = 3
+\item 
+static final int \hyperlink{classw3se_1_1_controller_1_1_controller_factory_ab55317e2c56d181b48ad9928ec83aef4}{S\-E\-L\-L} = 4
+\item 
+static final int \hyperlink{classw3se_1_1_controller_1_1_controller_factory_ad1a630820e7935394c528353839b8380}{L\-O\-G\-S} = 5
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Controller\-Factory.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Nov 26, 2012 Desc \-: Singleton class to produce the controllers for the various views 
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_controller_1_1_controller_factory_aa98700d9b1e8c389d544eced557c2f41}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!create\-Controller@{create\-Controller}}
+\index{create\-Controller@{create\-Controller}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{create\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Controller} w3se.\-Controller.\-Controller\-Factory.\-create\-Controller (
+\begin{DoxyParamCaption}
+\item[{int}]{controller\-Type}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_controller_1_1_controller_factory_aa98700d9b1e8c389d544eced557c2f41}
+method to produce \hyperlink{interfacew3se_1_1_controller_1_1_controller}{Controller}'s 
+\begin{DoxyParams}{Parameters}
+{\em controller\-Type} & -\/ enum of the controller type based on the view (M\-A\-I\-N\-\_\-\-V\-I\-E\-W, S\-E\-A\-R\-C\-H, S\-E\-L\-L, L\-O\-G\-I\-N, C\-O\-N\-F\-I\-G, L\-O\-G\-S) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ \hyperlink{interfacew3se_1_1_controller_1_1_controller}{Controller} 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_controller_1_1_controller_factory_a9328085c9578be93a2ab3fd7e63e48dd}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Controller\-Factory} w3se.\-Controller.\-Controller\-Factory.\-get\-Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_a9328085c9578be93a2ab3fd7e63e48dd}
+Method to obtain the instance of the \hyperlink{classw3se_1_1_controller_1_1_controller_factory}{Controller\-Factory} \begin{DoxyReturn}{Returns}
+-\/ \hyperlink{classw3se_1_1_controller_1_1_controller_factory}{Controller\-Factory} instance 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_controller_1_1_controller_factory_a608ffad3b8455bee8011f748a1350a22}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!get\-Instance@{get\-Instance}}
+\index{get\-Instance@{get\-Instance}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{get\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Controller\-Factory} w3se.\-Controller.\-Controller\-Factory.\-get\-Instance (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-M\-S}}]{model}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_a608ffad3b8455bee8011f748a1350a22}
+method to get the instance of the controller factory 
+\begin{DoxyParams}{Parameters}
+{\em model} & -\/ main model of the system (I\-M\-S) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ \hyperlink{classw3se_1_1_controller_1_1_controller_factory}{Controller\-Factory} instance 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_controller_1_1_controller_factory_a8d17247f3d84673720934a89a9387dde}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!register\-Model@{register\-Model}}
+\index{register\-Model@{register\-Model}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{register\-Model}]{\setlength{\rightskip}{0pt plus 5cm}static void w3se.\-Controller.\-Controller\-Factory.\-register\-Model (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-M\-S}}]{model}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_a8d17247f3d84673720934a89a9387dde}
+method to register the model to the \hyperlink{classw3se_1_1_controller_1_1_controller_factory}{Controller\-Factory} 
+\begin{DoxyParams}{Parameters}
+{\em model} & -\/ main model of the system (I\-M\-S) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classw3se_1_1_controller_1_1_controller_factory_ae4a2c6a73c4e48952bbace51e7ab0c03}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!C\-O\-N\-F\-I\-G@{C\-O\-N\-F\-I\-G}}
+\index{C\-O\-N\-F\-I\-G@{C\-O\-N\-F\-I\-G}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{C\-O\-N\-F\-I\-G}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Controller.\-Controller\-Factory.\-C\-O\-N\-F\-I\-G = 3\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_ae4a2c6a73c4e48952bbace51e7ab0c03}
+Configurations panel \hypertarget{classw3se_1_1_controller_1_1_controller_factory_ad5cd3960aaaed6a4a1c1e51f5ef0d9bf}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!L\-O\-G\-I\-N@{L\-O\-G\-I\-N}}
+\index{L\-O\-G\-I\-N@{L\-O\-G\-I\-N}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{L\-O\-G\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Controller.\-Controller\-Factory.\-L\-O\-G\-I\-N = 2\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_ad5cd3960aaaed6a4a1c1e51f5ef0d9bf}
+Logon panel \hypertarget{classw3se_1_1_controller_1_1_controller_factory_ad1a630820e7935394c528353839b8380}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!L\-O\-G\-S@{L\-O\-G\-S}}
+\index{L\-O\-G\-S@{L\-O\-G\-S}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{L\-O\-G\-S}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Controller.\-Controller\-Factory.\-L\-O\-G\-S = 5\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_ad1a630820e7935394c528353839b8380}
+Log manage panel \hypertarget{classw3se_1_1_controller_1_1_controller_factory_a6a7ccd51a6578a23662085daf56dde92}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!M\-A\-I\-N\-\_\-\-V\-I\-E\-W@{M\-A\-I\-N\-\_\-\-V\-I\-E\-W}}
+\index{M\-A\-I\-N\-\_\-\-V\-I\-E\-W@{M\-A\-I\-N\-\_\-\-V\-I\-E\-W}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{M\-A\-I\-N\-\_\-\-V\-I\-E\-W}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Controller.\-Controller\-Factory.\-M\-A\-I\-N\-\_\-\-V\-I\-E\-W = 0\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_a6a7ccd51a6578a23662085daf56dde92}
+\hyperlink{classw3se_1_1_main}{Main} window of the program \hypertarget{classw3se_1_1_controller_1_1_controller_factory_a6b4f99f28f772b04d83cd840a52add01}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!S\-E\-A\-R\-C\-H@{S\-E\-A\-R\-C\-H}}
+\index{S\-E\-A\-R\-C\-H@{S\-E\-A\-R\-C\-H}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{S\-E\-A\-R\-C\-H}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Controller.\-Controller\-Factory.\-S\-E\-A\-R\-C\-H = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_a6b4f99f28f772b04d83cd840a52add01}
+Keyword search, Browse Search, or Add/\-Edit panel \hypertarget{classw3se_1_1_controller_1_1_controller_factory_ab55317e2c56d181b48ad9928ec83aef4}{\index{w3se\-::\-Controller\-::\-Controller\-Factory@{w3se\-::\-Controller\-::\-Controller\-Factory}!S\-E\-L\-L@{S\-E\-L\-L}}
+\index{S\-E\-L\-L@{S\-E\-L\-L}!w3se::Controller::ControllerFactory@{w3se\-::\-Controller\-::\-Controller\-Factory}}
+\subsubsection[{S\-E\-L\-L}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Controller.\-Controller\-Factory.\-S\-E\-L\-L = 4\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_controller_1_1_controller_factory_ab55317e2c56d181b48ad9928ec83aef4}
+Sell Book panel 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Controller/Controller\-Factory.\-java\end{DoxyCompactItemize}

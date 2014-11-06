@@ -1,0 +1,5 @@
+- To build this you have to download mysql-connector, hsqldb, and poi-3.8 libraries to compile against
+
+- To read the documentation just click use the ShelfLifeDoc.html
+
+- To just use the software go to the release folder and run the ShelfLife.jar

@@ -1,0 +1,70 @@
+\hypertarget{classw3se_1_1_controller_1_1_abstract_controller}{\section{w3se.\-Controller.\-Abstract\-Controller Class Reference}
+\label{classw3se_1_1_controller_1_1_abstract_controller}\index{w3se.\-Controller.\-Abstract\-Controller@{w3se.\-Controller.\-Abstract\-Controller}}
+}
+Inheritance diagram for w3se.\-Controller.\-Abstract\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.176471cm]{classw3se_1_1_controller_1_1_abstract_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classw3se_1_1_controller_1_1_listener_adaptor}{Listener\-Adaptor} \hyperlink{classw3se_1_1_controller_1_1_abstract_controller_ae7209447a304e2134c9ec1c2c249cd98}{get\-Listener} (String key)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classw3se_1_1_controller_1_1_abstract_controller_a07a8d0a513d3650a075f73a43186de9f}{add\-Listener} (String key, \hyperlink{classw3se_1_1_controller_1_1_listener_adaptor}{Listener\-Adaptor} listener)
+\item 
+abstract void \hyperlink{classw3se_1_1_controller_1_1_abstract_controller_a92ee594be5083c2db0eb40286190595e}{propagate\-Map} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Abstract\-Controller.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Nov 26, 2012 Desc \-: Abstract class to implement get\-Listener and add\-Listener methods 
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_controller_1_1_abstract_controller_a07a8d0a513d3650a075f73a43186de9f}{\index{w3se\-::\-Controller\-::\-Abstract\-Controller@{w3se\-::\-Controller\-::\-Abstract\-Controller}!add\-Listener@{add\-Listener}}
+\index{add\-Listener@{add\-Listener}!w3se::Controller::AbstractController@{w3se\-::\-Controller\-::\-Abstract\-Controller}}
+\subsubsection[{add\-Listener}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Controller.\-Abstract\-Controller.\-add\-Listener (
+\begin{DoxyParamCaption}
+\item[{String}]{key, }
+\item[{{\bf Listener\-Adaptor}}]{listener}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classw3se_1_1_controller_1_1_abstract_controller_a07a8d0a513d3650a075f73a43186de9f}
+method to add a listener 
+\begin{DoxyParams}{Parameters}
+{\em key} & -\/ String identifier for the listener \\
+\hline
+{\em listener} & -\/ listener object to be added \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_controller_1_1_abstract_controller_ae7209447a304e2134c9ec1c2c249cd98}{\index{w3se\-::\-Controller\-::\-Abstract\-Controller@{w3se\-::\-Controller\-::\-Abstract\-Controller}!get\-Listener@{get\-Listener}}
+\index{get\-Listener@{get\-Listener}!w3se::Controller::AbstractController@{w3se\-::\-Controller\-::\-Abstract\-Controller}}
+\subsubsection[{get\-Listener}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Listener\-Adaptor} w3se.\-Controller.\-Abstract\-Controller.\-get\-Listener (
+\begin{DoxyParamCaption}
+\item[{String}]{key}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_controller_1_1_abstract_controller_ae7209447a304e2134c9ec1c2c249cd98}
+method to obtain a listener 
+\begin{DoxyParams}{Parameters}
+{\em key} & -\/ String key to find a particular listener (e.\-g. \char`\"{}config\-\_\-user\-\_\-accept\char`\"{}) \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_controller_1_1_abstract_controller_a92ee594be5083c2db0eb40286190595e}{\index{w3se\-::\-Controller\-::\-Abstract\-Controller@{w3se\-::\-Controller\-::\-Abstract\-Controller}!propagate\-Map@{propagate\-Map}}
+\index{propagate\-Map@{propagate\-Map}!w3se::Controller::AbstractController@{w3se\-::\-Controller\-::\-Abstract\-Controller}}
+\subsubsection[{propagate\-Map}]{\setlength{\rightskip}{0pt plus 5cm}abstract void w3se.\-Controller.\-Abstract\-Controller.\-propagate\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classw3se_1_1_controller_1_1_abstract_controller_a92ee594be5083c2db0eb40286190595e}
+method to fill the hash map with listener-\/key pairs during object construction 
+
+Implemented in \hyperlink{classw3se_1_1_controller_1_1_config_view_controller_a06395bc4df65b4e46f8978934e06502d}{w3se.\-Controller.\-Config\-View\-Controller}, \hyperlink{classw3se_1_1_controller_1_1_book_search_controller_a1b8117e4873d977ae119e29c891fbb98}{w3se.\-Controller.\-Book\-Search\-Controller}, \hyperlink{classw3se_1_1_controller_1_1_sell_view_controller_a309a8c4a67eab7341b4575f731cd600c}{w3se.\-Controller.\-Sell\-View\-Controller}, \hyperlink{classw3se_1_1_controller_1_1_log_view_controller_a89d1dccbfb4f4af03d448c6ad382e828}{w3se.\-Controller.\-Log\-View\-Controller}, \hyperlink{classw3se_1_1_controller_1_1_main_view_controller_a7a2171d39aa14153820b062ba5e51a39}{w3se.\-Controller.\-Main\-View\-Controller}, and \hyperlink{classw3se_1_1_controller_1_1_login_view_controller_ab45a341b9bda3f4896d5cec7bb1e8b49}{w3se.\-Controller.\-Login\-View\-Controller}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Controller/Abstract\-Controller.\-java\end{DoxyCompactItemize}

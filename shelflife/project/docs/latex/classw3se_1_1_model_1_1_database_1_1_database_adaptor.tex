@@ -1,0 +1,138 @@
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{\section{w3se.\-Model.\-Database.\-Database\-Adaptor Class Reference}
+\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor}\index{w3se.\-Model.\-Database.\-Database\-Adaptor@{w3se.\-Model.\-Database.\-Database\-Adaptor}}
+}
+Inheritance diagram for w3se.\-Model.\-Database.\-Database\-Adaptor\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classw3se_1_1_model_1_1_database_1_1_database_adaptor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_abef4d6f0b9b243e18f97a5c5b7d7c1d3}{Database\-Adaptor} (String server\-State, \hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} config)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a7a4b6a2db64ac5a797c42bd9046c0fc1}{set\-State} (int state)
+\item 
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_adb56bce1b2305c23365ad540b836de0d}{void {\bfseries retrieve} (Object term)  throws Exception 	}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_adb56bce1b2305c23365ad540b836de0d}
+
+\item 
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_abb6e60b6d3df1374a6a4027913aa9a2c}{void {\bfseries add} (Object obj)  throws Exception 	}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_abb6e60b6d3df1374a6a4027913aa9a2c}
+
+\item 
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a9bd632405311caf3d7b3c59f8656c6b5}{void {\bfseries remove} (Object obj)  throws Exception 	}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a9bd632405311caf3d7b3c59f8656c6b5}
+
+\item 
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a6ca577d920ed40151c019793214d417d}{Object {\bfseries get\-Result} ()  throws Exception 	}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a6ca577d920ed40151c019793214d417d}
+
+\item 
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_afac977bdd8618c595cef7260da8f9a14}{void {\bfseries shutdown} ()}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_afac977bdd8618c595cef7260da8f9a14}
+
+\item 
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a8150fc39afa038ede129bdd5b50f56df}{void {\bfseries close} ()}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a8150fc39afa038ede129bdd5b50f56df}
+
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ad44315787a6058c11c56d0b92e7fc733}{get\-Database\-Config} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ab21bf99d29106baa4c0001f00088648c}{get\-State} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ae9a723ec22a2faffd833796f7afeb6ef}{B\-O\-O\-K\-\_\-\-D\-B} = 1
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_afe4d33dc15d4ac9af43c3c631619a086}{O\-N\-L\-I\-N\-E\-\_\-\-D\-B} = 2
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a59eacb7231c850d9ac675ea99b3f4bfd}{U\-S\-E\-R\-S\-\_\-\-D\-B} = 4
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a39191eb3e12600bd39ded42ed4ef2707}{L\-O\-G\-S\-\_\-\-D\-B} = 16
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a7fad4326381f42f0e38484a0e07d7ff3}{S\-E\-R\-V\-E\-R} = 0
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a2c5a2b62c46dcf90c0585fa6bb721d01}{C\-L\-I\-E\-N\-T} = 1
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Database\-Adaptor.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Class to manage the databases of the system 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_abef4d6f0b9b243e18f97a5c5b7d7c1d3}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!Database\-Adaptor@{Database\-Adaptor}}
+\index{Database\-Adaptor@{Database\-Adaptor}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{Database\-Adaptor}]{\setlength{\rightskip}{0pt plus 5cm}w3se.\-Model.\-Database.\-Database\-Adaptor.\-Database\-Adaptor (
+\begin{DoxyParamCaption}
+\item[{String}]{server\-State, }
+\item[{{\bf Configurations}}]{config}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_abef4d6f0b9b243e18f97a5c5b7d7c1d3}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em server\-State} & -\/ S\-E\-R\-V\-E\-R or C\-L\-I\-E\-N\-T mode \\
+\hline
+{\em config} & -\/ system configurations \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ad44315787a6058c11c56d0b92e7fc733}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!get\-Database\-Config@{get\-Database\-Config}}
+\index{get\-Database\-Config@{get\-Database\-Config}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{get\-Database\-Config}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} w3se.\-Model.\-Database.\-Database\-Adaptor.\-get\-Database\-Config (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ad44315787a6058c11c56d0b92e7fc733}
+method to get the database's configuration \begin{DoxyReturn}{Returns}
+-\/ array of strings 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ab21bf99d29106baa4c0001f00088648c}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!get\-State@{get\-State}}
+\index{get\-State@{get\-State}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{get\-State}]{\setlength{\rightskip}{0pt plus 5cm}static int w3se.\-Model.\-Database.\-Database\-Adaptor.\-get\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ab21bf99d29106baa4c0001f00088648c}
+method to get the state of the database adaptor \begin{DoxyReturn}{Returns}
+-\/ current state 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a7a4b6a2db64ac5a797c42bd9046c0fc1}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!set\-State@{set\-State}}
+\index{set\-State@{set\-State}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{set\-State}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Database.\-Database\-Adaptor.\-set\-State (
+\begin{DoxyParamCaption}
+\item[{int}]{state}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a7a4b6a2db64ac5a797c42bd9046c0fc1}
+method to set the state of the database adaptor 
+\begin{DoxyParams}{Parameters}
+{\em state} & -\/ current state \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ae9a723ec22a2faffd833796f7afeb6ef}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!B\-O\-O\-K\-\_\-\-D\-B@{B\-O\-O\-K\-\_\-\-D\-B}}
+\index{B\-O\-O\-K\-\_\-\-D\-B@{B\-O\-O\-K\-\_\-\-D\-B}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{B\-O\-O\-K\-\_\-\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Database.\-Database\-Adaptor.\-B\-O\-O\-K\-\_\-\-D\-B = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_ae9a723ec22a2faffd833796f7afeb6ef}
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} State -\/ Books Database \hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a2c5a2b62c46dcf90c0585fa6bb721d01}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!C\-L\-I\-E\-N\-T@{C\-L\-I\-E\-N\-T}}
+\index{C\-L\-I\-E\-N\-T@{C\-L\-I\-E\-N\-T}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{C\-L\-I\-E\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Database.\-Database\-Adaptor.\-C\-L\-I\-E\-N\-T = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a2c5a2b62c46dcf90c0585fa6bb721d01}
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} State -\/ Client Mode \hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a39191eb3e12600bd39ded42ed4ef2707}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!L\-O\-G\-S\-\_\-\-D\-B@{L\-O\-G\-S\-\_\-\-D\-B}}
+\index{L\-O\-G\-S\-\_\-\-D\-B@{L\-O\-G\-S\-\_\-\-D\-B}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{L\-O\-G\-S\-\_\-\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Database.\-Database\-Adaptor.\-L\-O\-G\-S\-\_\-\-D\-B = 16\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a39191eb3e12600bd39ded42ed4ef2707}
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} State -\/ Logs Database \hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_afe4d33dc15d4ac9af43c3c631619a086}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!O\-N\-L\-I\-N\-E\-\_\-\-D\-B@{O\-N\-L\-I\-N\-E\-\_\-\-D\-B}}
+\index{O\-N\-L\-I\-N\-E\-\_\-\-D\-B@{O\-N\-L\-I\-N\-E\-\_\-\-D\-B}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{O\-N\-L\-I\-N\-E\-\_\-\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Database.\-Database\-Adaptor.\-O\-N\-L\-I\-N\-E\-\_\-\-D\-B = 2\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_afe4d33dc15d4ac9af43c3c631619a086}
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} State -\/ Online Books Database \hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a7fad4326381f42f0e38484a0e07d7ff3}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!S\-E\-R\-V\-E\-R@{S\-E\-R\-V\-E\-R}}
+\index{S\-E\-R\-V\-E\-R@{S\-E\-R\-V\-E\-R}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{S\-E\-R\-V\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Database.\-Database\-Adaptor.\-S\-E\-R\-V\-E\-R = 0\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a7fad4326381f42f0e38484a0e07d7ff3}
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} State -\/ Server Mode \hypertarget{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a59eacb7231c850d9ac675ea99b3f4bfd}{\index{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}!U\-S\-E\-R\-S\-\_\-\-D\-B@{U\-S\-E\-R\-S\-\_\-\-D\-B}}
+\index{U\-S\-E\-R\-S\-\_\-\-D\-B@{U\-S\-E\-R\-S\-\_\-\-D\-B}!w3se::Model::Database::DatabaseAdaptor@{w3se\-::\-Model\-::\-Database\-::\-Database\-Adaptor}}
+\subsubsection[{U\-S\-E\-R\-S\-\_\-\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Database.\-Database\-Adaptor.\-U\-S\-E\-R\-S\-\_\-\-D\-B = 4\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_database_1_1_database_adaptor_a59eacb7231c850d9ac675ea99b3f4bfd}
+\hyperlink{classw3se_1_1_model_1_1_database_1_1_database_adaptor}{Database\-Adaptor} State -\/ Users Database 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/\-Database/Database\-Adaptor.\-java\end{DoxyCompactItemize}

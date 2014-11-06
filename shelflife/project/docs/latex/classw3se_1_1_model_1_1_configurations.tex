@@ -1,0 +1,106 @@
+\hypertarget{classw3se_1_1_model_1_1_configurations}{\section{w3se.\-Model.\-Configurations Class Reference}
+\label{classw3se_1_1_model_1_1_configurations}\index{w3se.\-Model.\-Configurations@{w3se.\-Model.\-Configurations}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_configurations_aeb9faee19cbeea055e08b439c8b4093b}{set\-New\-Configuration} (String key, String value)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_configurations_ae520d41d684af1caf3f8abbcb63122df}{set\-Filename} (String filename)
+\item 
+String \hyperlink{classw3se_1_1_model_1_1_configurations_ac879ff8cf969d830f2244f65c175ca95}{get\-Filename} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_configurations_a38775b5fff99e05d010396a6799eff21}{write\-To\-File} ()
+\item 
+String \hyperlink{classw3se_1_1_model_1_1_configurations_a57857b6a9517790bd58934cb6ee9e0a4}{get\-Value} (String name)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} \hyperlink{classw3se_1_1_model_1_1_configurations_a801e4a5535bc378aa3d3eb11a90923f8}{get\-Config\-From\-File} (String filename)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Configurations.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Class to hold and manage the configurations of the system 
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_model_1_1_configurations_a801e4a5535bc378aa3d3eb11a90923f8}{\index{w3se\-::\-Model\-::\-Configurations@{w3se\-::\-Model\-::\-Configurations}!get\-Config\-From\-File@{get\-Config\-From\-File}}
+\index{get\-Config\-From\-File@{get\-Config\-From\-File}!w3se::Model::Configurations@{w3se\-::\-Model\-::\-Configurations}}
+\subsubsection[{get\-Config\-From\-File}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Configurations} w3se.\-Model.\-Configurations.\-get\-Config\-From\-File (
+\begin{DoxyParamCaption}
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_configurations_a801e4a5535bc378aa3d3eb11a90923f8}
+method to obtain the configurations from a file 
+\begin{DoxyParams}{Parameters}
+{\em filename} & -\/ filename of the configuration file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ \hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} instance 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_configurations_ac879ff8cf969d830f2244f65c175ca95}{\index{w3se\-::\-Model\-::\-Configurations@{w3se\-::\-Model\-::\-Configurations}!get\-Filename@{get\-Filename}}
+\index{get\-Filename@{get\-Filename}!w3se::Model::Configurations@{w3se\-::\-Model\-::\-Configurations}}
+\subsubsection[{get\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}String w3se.\-Model.\-Configurations.\-get\-Filename (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_configurations_ac879ff8cf969d830f2244f65c175ca95}
+method to get the filename of the Configuration's object \begin{DoxyReturn}{Returns}
+-\/ String filename 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_configurations_a57857b6a9517790bd58934cb6ee9e0a4}{\index{w3se\-::\-Model\-::\-Configurations@{w3se\-::\-Model\-::\-Configurations}!get\-Value@{get\-Value}}
+\index{get\-Value@{get\-Value}!w3se::Model::Configurations@{w3se\-::\-Model\-::\-Configurations}}
+\subsubsection[{get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}String w3se.\-Model.\-Configurations.\-get\-Value (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_configurations_a57857b6a9517790bd58934cb6ee9e0a4}
+method to get a value from a key/name 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ key associated with the value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ String value 
+\end{DoxyReturn}
+\hypertarget{classw3se_1_1_model_1_1_configurations_ae520d41d684af1caf3f8abbcb63122df}{\index{w3se\-::\-Model\-::\-Configurations@{w3se\-::\-Model\-::\-Configurations}!set\-Filename@{set\-Filename}}
+\index{set\-Filename@{set\-Filename}!w3se::Model::Configurations@{w3se\-::\-Model\-::\-Configurations}}
+\subsubsection[{set\-Filename}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Configurations.\-set\-Filename (
+\begin{DoxyParamCaption}
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_configurations_ae520d41d684af1caf3f8abbcb63122df}
+method to set the filename to write to 
+\begin{DoxyParams}{Parameters}
+{\em filename} & -\/ String \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_configurations_aeb9faee19cbeea055e08b439c8b4093b}{\index{w3se\-::\-Model\-::\-Configurations@{w3se\-::\-Model\-::\-Configurations}!set\-New\-Configuration@{set\-New\-Configuration}}
+\index{set\-New\-Configuration@{set\-New\-Configuration}!w3se::Model::Configurations@{w3se\-::\-Model\-::\-Configurations}}
+\subsubsection[{set\-New\-Configuration}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Configurations.\-set\-New\-Configuration (
+\begin{DoxyParamCaption}
+\item[{String}]{key, }
+\item[{String}]{value}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_configurations_aeb9faee19cbeea055e08b439c8b4093b}
+method to set a new configuration to the \hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} object or edit an old configuration 
+\begin{DoxyParams}{Parameters}
+{\em key} & -\/ the name to look up \\
+\hline
+{\em value} & -\/ the value to be associated with the key \\
+\hline
+\end{DoxyParams}
+\hypertarget{classw3se_1_1_model_1_1_configurations_a38775b5fff99e05d010396a6799eff21}{\index{w3se\-::\-Model\-::\-Configurations@{w3se\-::\-Model\-::\-Configurations}!write\-To\-File@{write\-To\-File}}
+\index{write\-To\-File@{write\-To\-File}!w3se::Model::Configurations@{w3se\-::\-Model\-::\-Configurations}}
+\subsubsection[{write\-To\-File}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Configurations.\-write\-To\-File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_configurations_a38775b5fff99e05d010396a6799eff21}
+method to write the contents of the \hyperlink{classw3se_1_1_model_1_1_configurations}{Configurations} object to the configurations file specified in the get\-Config\-From\-File method or set filename method 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/Configurations.\-java\end{DoxyCompactItemize}

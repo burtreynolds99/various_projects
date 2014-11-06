@@ -1,0 +1,135 @@
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package}{\section{w3se.\-Model.\-Base.\-Package Class Reference}
+\label{classw3se_1_1_model_1_1_base_1_1_package}\index{w3se.\-Model.\-Base.\-Package@{w3se.\-Model.\-Base.\-Package}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a4d235d15df75f83348b32cbf0c30e042}{Package} (String src, String dest, String key)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a8cb0864f00050aa24496e30573bb918d}{set\-Key} (String key)
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a23d06b2ff69bfdcdb4b140caadbf1c79}{unpack} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a42db2524c0e25afd8007860899396df2}{pack} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a6af0ae65b63206e1b3ece3ae22baa44b}{close} ()
+\item 
+void \hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a8ea47096e8de8db66599c7f783e78a5e}{encrypt\-Or\-Decrypt} (String key, int mode, Input\-Stream is, Output\-Stream os)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a35b2be04e88929ac78c70485e08eb784}{B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E} = 1024
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \-: Package.\-java Author \-: Larry \char`\"{}\-Bucky\char`\"{} Kittinger Date \-: Dec 1, 2012 Desc \-: Class to manage package file (encrypted zip file) 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a4d235d15df75f83348b32cbf0c30e042}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!Package@{Package}}
+\index{Package@{Package}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{Package}]{\setlength{\rightskip}{0pt plus 5cm}w3se.\-Model.\-Base.\-Package.\-Package (
+\begin{DoxyParamCaption}
+\item[{String}]{src, }
+\item[{String}]{dest, }
+\item[{String}]{key}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_package_a4d235d15df75f83348b32cbf0c30e042}
+constructor 
+\begin{DoxyParams}{Parameters}
+{\em src} & -\/ Source filename \\
+\hline
+{\em dest} & -\/ Destination filename \\
+\hline
+{\em key} & -\/ Encryption key \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package}{Package} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a6af0ae65b63206e1b3ece3ae22baa44b}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!close@{close}}
+\index{close@{close}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Package.\-close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_package_a6af0ae65b63206e1b3ece3ae22baa44b}
+method to be called on system close \begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a6af0ae65b63206e1b3ece3ae22baa44b}{close} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a8ea47096e8de8db66599c7f783e78a5e}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!encrypt\-Or\-Decrypt@{encrypt\-Or\-Decrypt}}
+\index{encrypt\-Or\-Decrypt@{encrypt\-Or\-Decrypt}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{encrypt\-Or\-Decrypt}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Package.\-encrypt\-Or\-Decrypt (
+\begin{DoxyParamCaption}
+\item[{String}]{key, }
+\item[{int}]{mode, }
+\item[{Input\-Stream}]{is, }
+\item[{Output\-Stream}]{os}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_package_a8ea47096e8de8db66599c7f783e78a5e}
+Encrypt or decrypt
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+{\em mode} & \\
+\hline
+{\em is} & \\
+\hline
+{\em os} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a8ea47096e8de8db66599c7f783e78a5e}{encrypt\-Or\-Decrypt} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a42db2524c0e25afd8007860899396df2}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!pack@{pack}}
+\index{pack@{pack}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{pack}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Package.\-pack (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_package_a42db2524c0e25afd8007860899396df2}
+method to pack the contents of the temporary folder \begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a42db2524c0e25afd8007860899396df2}{pack} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a8cb0864f00050aa24496e30573bb918d}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!set\-Key@{set\-Key}}
+\index{set\-Key@{set\-Key}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{set\-Key}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Package.\-set\-Key (
+\begin{DoxyParamCaption}
+\item[{String}]{key}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_package_a8cb0864f00050aa24496e30573bb918d}
+method to set the key to decrypt the package 
+\begin{DoxyParams}{Parameters}
+{\em key} & The key to be set \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a8cb0864f00050aa24496e30573bb918d}{set\-Key} 
+\end{DoxySeeAlso}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a23d06b2ff69bfdcdb4b140caadbf1c79}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!unpack@{unpack}}
+\index{unpack@{unpack}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{unpack}]{\setlength{\rightskip}{0pt plus 5cm}void w3se.\-Model.\-Base.\-Package.\-unpack (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classw3se_1_1_model_1_1_base_1_1_package_a23d06b2ff69bfdcdb4b140caadbf1c79}
+method to unpack the contents of the package \begin{DoxySeeAlso}{See Also}
+\hyperlink{classw3se_1_1_model_1_1_base_1_1_package_a23d06b2ff69bfdcdb4b140caadbf1c79}{unpack} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classw3se_1_1_model_1_1_base_1_1_package_a35b2be04e88929ac78c70485e08eb784}{\index{w3se\-::\-Model\-::\-Base\-::\-Package@{w3se\-::\-Model\-::\-Base\-::\-Package}!B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E@{B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E}}
+\index{B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E@{B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E}!w3se::Model::Base::Package@{w3se\-::\-Model\-::\-Base\-::\-Package}}
+\subsubsection[{B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}final int w3se.\-Model.\-Base.\-Package.\-B\-U\-F\-F\-E\-R\-\_\-\-S\-I\-Z\-E = 1024\hspace{0.3cm}{\ttfamily [static]}}}\label{classw3se_1_1_model_1_1_base_1_1_package_a35b2be04e88929ac78c70485e08eb784}
+Stream buffer size 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/\-Judge\-Fudge/\-Documents/workspace/\-Java\-Projects/\-Shelf\-Life\-V2/src/w3se/\-Model/\-Base/Package.\-java\end{DoxyCompactItemize}
