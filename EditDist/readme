@@ -1,0 +1,15 @@
+1) To compile just use gnatmake, so `gnatmake editdist.adb`
+To run either manually type in the values,
+-first is the source string
+-next is the number for the maximum edit distance allowed
+-finally the target string to compare with the source
+Or redirect a file into the program, I will include `test.in` to test the program with
+
+2) The recurrence equation for the edit distance problem is given in `recurrence.gif`, I used Texify online to generate it, nice and easy solution for quick equations.
+for the case where s(i) = t(j), no changes need to be made
+for the case where s(i) /= t(j), a replacement is made
+for the case where dist(i-1, j) a deletion is made
+for the case where dist(i, j-1) an insertion is made
+
+3) I used the book for this class and the "Introduction to Algorithms" by Thomas Cormen, Charles E. Leiserson, Ronald Rivest, and Clifford Stein and their section on dynamic programming section.
+
